@@ -1,0 +1,62 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFA500;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .07);
+    /* margin-bottom: 21px; */
+    font-size: 14px;
+    position: unset;
+    padding: 10px;
+}
+
+.communication {
+    display: flex;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.iconMap{
+    margin-right: 10px;
+    
+}
+
+.textMap{
+    margin-right: 25px;
+}
+
+.iconMail{
+    margin-right: 10px;
+   
+}
+
+.socialMedia{
+    margin-right: 15px;
+    
+}
+
+.socialMedia:hover{
+    background-color: gray;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.socialMediaParent{
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .communication{
+        display: flex;
+        flex-direction: column;
+    }
+}

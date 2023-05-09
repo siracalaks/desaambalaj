@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+
+.navbarOrange{
+  margin-top: -57px;
+}
+
+
+
+.navbarLogo{
+  width: 50%;
+  height: 83%;
+}
+
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.list a:hover,
+.list a.active {
+  color:  #000000;
+}
+
+
+
+ul{
+  margin-right: 40px;
+}
+
+.linkParent{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.logout{
+  background-color: orange;
+  color: white;
+  border-color: white;
+}
+
+/* @media (max-width: 768px) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linkParent {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .logout {
+    margin-top: 1rem;
+    width: 100%;
+  }
+} */
+
+.mobileMenuButton{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .linkParent {
+    display: none;
+    width: 100%;
+    padding: 2rem 8rem;
+    transform: translateY(50%);
+    visibility: visible;
+    background-color: gray;
+    margin-bottom: 100px;
+    z-index: 1;
+  }
+
+  .showMenu {
+    display: block;
+  }
+  .mobileMenuButton {
+    display: block;
+  }
+  .mobileMenuButton button {
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}

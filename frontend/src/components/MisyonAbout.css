@@ -1,0 +1,33 @@
+.misyon {
+    /* background-color: #F3F3F3; */
+    margin: 100px 0;
+    padding: 20px;
+  }
+  
+  .misyon__container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 10px;
+    padding: inherit;
+  }
+  
+  .misyon__container:hover{
+    color: orange;
+  }
+  .misyon__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .misyon__description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .misyon__description {
+      font-size: 1rem;
+    }
+  }
+  
